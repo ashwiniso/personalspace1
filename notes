@@ -7,3 +7,6 @@
     in the class.
     
 #and without referencing anything, the method is can be simply called without any error.
+
+
+#what is the return type of a static method which just intriduces a new line.
