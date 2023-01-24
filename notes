@@ -1,0 +1,7 @@
+#when class name is used as a reference to call a method from the parent class then there is an error, 
+    which is debugged only by decalring the method as static
+
+#but instead of using the class name but the "super" keyword, the method is called without using the static declaration of the method
+    in the class.
+    
+#and without referencing anything, the method is can be simply called without any error.

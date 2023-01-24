@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch twodarrays",
+            "request": "launch",
+            "mainClass": "twodarrays",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch Language",
+            "request": "launch",
+            "mainClass": "Language",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pet",
+            "request": "launch",
+            "mainClass": "AP.Lab2.Pet",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumofnumbers",
+            "request": "launch",
+            "mainClass": "sumofnumbers",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch morsetoenglish",
+            "request": "launch",
+            "mainClass": "morsetoenglish",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch split",
+            "request": "launch",
+            "mainClass": "split",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphName",
+            "request": "launch",
+            "mainClass": "AlphName",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch record",
+            "request": "launch",
+            "mainClass": "record",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch highestmarks",
+            "request": "launch",
+            "mainClass": "highestmarks",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch Leaderboard",
+            "request": "launch",
+            "mainClass": "Leaderboard",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch leetcode2",
+            "request": "launch",
+            "mainClass": "leetcode2",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch test3",
+            "request": "launch",
+            "mainClass": "test3",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch AE1_2772570N",
+            "request": "launch",
+            "mainClass": "AE1_2772570N",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch Playlist",
+            "request": "launch",
+            "mainClass": "Playlist",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch AL",
+            "request": "launch",
+            "mainClass": "AL",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "vs code_9088f393"
+        }
+    ]
+}
