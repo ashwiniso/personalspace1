@@ -2,15 +2,23 @@ import java.util.*;
 
 public class test {
 
-    public static int sum(int numberone, int numbertwo) {
-        return numberone + numbertwo;
-    }
-
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
-        int b = input.nextInt();
-        System.out.println(sum(a, b));
-        System.out.println(test4.name);
+        int[][] intMatrix = {
+                { 1, 1, 1, 1, 1 },
+                { 2, 4, 6, 8, 0 },
+                { 9, 8, 7, 6, 5 } };
+
+        intMatrix[1][1] = 0;
+
+        int[][] subMatrix = new int[2][2];
+
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                subMatrix[i][j] = intMatrix[i][j] * 5;
+            }
+        }
+
+        System.out.println(Arrays.deepToString(subMatrix));
+
     }
 }
