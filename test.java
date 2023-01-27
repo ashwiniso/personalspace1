@@ -1,24 +1,22 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class test {
-
     public static void main(String[] args) {
-        int[][] intMatrix = {
-                { 1, 1, 1, 1, 1 },
-                { 2, 4, 6, 8, 0 },
-                { 9, 8, 7, 6, 5 } };
+        int[][] imageData = { { 100, 90, 255, 80, 70, 255, 60, 50 },
+                { 255, 10, 5, 255, 10, 5, 255, 255 },
+                { 255, 255, 255, 0, 255, 255, 255, 75 },
+                { 255, 60, 30, 0, 30, 60, 255, 255 } };
 
-        intMatrix[1][1] = 0;
+        int[][] newImage = new int[4][6];
 
-        int[][] subMatrix = new int[2][2];
-
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 2; j++) {
-                subMatrix[i][j] = intMatrix[i][j] * 5;
+        for (int i = 0; i < imageData.length; i++) {
+            for (int j = 0; j < imageData[i].length; j++) {
+                if (j == 6 || j == 7) {
+                } else {
+                    newImage[i][j] = imageData[i][j];
+                }
             }
         }
-
-        System.out.println(Arrays.deepToString(subMatrix));
-
+        System.out.println(Arrays.deepToString(newImage));
     }
 }

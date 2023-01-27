@@ -10,3 +10,7 @@
 
 
 #what is the return type of a static method which just intriduces a new line.
+
+
+#like string pool where a value is referenced by multiple variables (pointers) to save memory, is there also something like pools for other data types, and does this also apply to
+objects of other clases. refernecing to a single memory location if the value is same. "==" meaning the memory location is same for both pointers
