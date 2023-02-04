@@ -12,8 +12,25 @@ public class stack {
         stackone.push("jesse");
         stackone.push("mike");
         stackone.push("walter");
+        stackone.push("saul");
         stackone.push("skyler");
+        System.out.println(stackone); 
+
+        //object returned by poping the stack
+
+        String top_object = stackone.pop();
+        System.out.println(top_object);
         System.out.println(stackone);
+
+        //however to get this from the stack, it removes the object from the stack
+        //so we can use the stack.peek() method
+        System.out.println(stackone.peek());
+
+        //the search method helps find the object argument in the stack
+
+        System.out.println(stackone.search("mike"));
+
+
 
 
 
@@ -29,6 +46,7 @@ public class stack {
 //other linear data structures in java, for comparaion purposes
 
         //arraylist
+        System.out.println("\narraylist");
         ArrayList<String> arraylistone = new ArrayList<>();
         arraylistone.add("orange");
         System.out.println(arraylistone);
@@ -36,6 +54,7 @@ public class stack {
 
 
         //arrays
+        System.out.println("\narrays");
         String[] arrayone  = {"orange"};
         System.out.println(Arrays.toString(arrayone));
 
