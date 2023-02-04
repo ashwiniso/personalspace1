@@ -27,7 +27,8 @@ public class stack {
         System.out.println(stackone.peek());
 
         //the search method helps find the object argument in the stack
-
+        //returns the index of the object in the stack note: indexing starts from the top initial position 1.
+        //returns -1 if not found
         System.out.println(stackone.search("mike"));
 
 

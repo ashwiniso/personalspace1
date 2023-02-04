@@ -1,3 +1,4 @@
+package PlatformCode;
 import java.util.Arrays;
 
 public class leetcode2 {
