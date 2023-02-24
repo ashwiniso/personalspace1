@@ -23,8 +23,8 @@ public class hackerrank2 {
         String s = scan.next();
         int k = scan.nextInt();
         scan.close();
-      
         System.out.println(getSmallestAndLargest(s, k));
+
     }
 }
 
