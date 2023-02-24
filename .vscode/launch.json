@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hackerrank2",
+            "request": "launch",
+            "mainClass": "PlatformCode.hackerrank2",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
             "name": "Launch arrayl",
             "request": "launch",
             "mainClass": "arrayl",
