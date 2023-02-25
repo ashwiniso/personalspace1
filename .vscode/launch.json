@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Serial.Car",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "Launch hackerrank5",
+            "request": "launch",
+            "mainClass": "PlatformCode.hackerrank5",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
             "name": "Launch hackerrank4",
             "request": "launch",
             "mainClass": "PlatformCode.hackerrank4",
