@@ -17,7 +17,7 @@ public class Car implements Serializable{
         Car carone  = new Car("Mazda RX7", 1999);
         Car cartwo  = new Car("Mitsubishi Eclipse GX '99", 1999);
 
-        FileOutputStream fileOutputStream = new FileOutputStream("cars.txt");
+        FileOutputStream fileOutputStream = new FileOutputStream("cars.png");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 
 
