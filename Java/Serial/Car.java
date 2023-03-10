@@ -44,6 +44,7 @@ public class Car implements Serializable{
         System.out.println("Mitsubishi Copy: " + mitsuCopy);
         System.out.println("Mitsubishi Original: " + mitsu);
         System.out.println("is same object: " + isSameObject);
+        //one can see that the transient fields are given the default values if serialized.
 
 
 

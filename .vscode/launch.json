@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stack",
+            "request": "launch",
+            "mainClass": "ADTS.stack",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
+            "name": "queque",
+            "request": "launch",
+            "mainClass": "ADTS.queque",
+            "projectName": "vs code_9088f393"
+        },
+        {
+            "type": "java",
             "name": "Launch Car",
             "request": "launch",
             "mainClass": "Serial.Car",

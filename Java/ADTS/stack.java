@@ -21,10 +21,10 @@ public class stack {
         String top_object = stackone.pop();
         System.out.println(top_object);
         System.out.println(stackone);
-
         //however to get this from the stack, it removes the object from the stack
-        //so we can use the stack.peek() method
+        //so we can use the stack.peek() method which doesnt remove the object
         System.out.println(stackone.peek());
+        System.out.println(stackone);
 
         //the search method helps find the object argument in the stack
         //returns the index of the object in the stack note: indexing starts from the top initial position 1.
