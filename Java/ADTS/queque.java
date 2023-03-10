@@ -22,6 +22,15 @@ public class queque {
     q.poll();//removes the head value of the queue
     System.out.println("after the poll method : " + q);
 
+    //check if empty
+    System.out.println(q.isEmpty());
+
+    //size
+    System.out.println(q.size());
+
+    //contains boolean method
+    System.out.println(q.contains("flynn"));
+
 
     }
 
